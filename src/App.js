@@ -4,8 +4,6 @@ import Song from './Song';
 import { songs } from './SongsList';
 import MusicPlayer from './MusicPlayer';
 import { signInWithGoogle } from './Firebase';
-import firebase from 'firebase';
-import 'firebase/auth';
 
 export default function App() {
   return (
