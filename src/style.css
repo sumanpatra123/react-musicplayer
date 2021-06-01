@@ -1,0 +1,26 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  background: cyan;
+  border: 1px solid green;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+li button {
+  visibility: hidden;
+  cursor: pointer;
+}
+
+li:hover button {
+  visibility: visible;
+}
